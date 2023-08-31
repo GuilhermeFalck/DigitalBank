@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+header {
+  background-color: #b8131b;
+  color: #c8ac67;
+  display: flex;
+  align-items: center;
+  gap: 26rem;
+  font-size: 20px;
+}
+
+aside {
+  background-color: #921016;
+  height: 100vh;
+  display: flex;
+  width: 20%;
+  padding: 1rem 1rem;
+  float: left;
+}
+
+main {
+  height: 739px;
+  padding: 2rem 2rem;
+  display: flex;
+  border: solid 5px black;
+}
+
+.titles {
+  color: #c8ac67;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Tilt Prism", cursive;
+}
+
+#logo {
+  width: 13rem;
+  height: 12rem;
+}
+
+#depositTitle {
+  font-size: 20px;
+  color: #c8ac67;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Tilt Prism", cursive;
+}
+
+#deposit {
+  border-radius: 10px;
+  border: #c8ac67 solid 2px;
+  width: 12rem;
+  height: 2rem;
+  padding-left: 5px;
+}
+.buttons {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #b8131b;
+  color: #c8ac67;
+  color: #c8ac67;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Tilt Prism", cursive;
+}
+
+#depositContainer {
+  border: solid 1px black;
+}
+
+#balance {
+  background-color: white;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#eye {
+  width: 20px;
+}
+
+#buttonEye {
+  background-color: transparent;
+  border: transparent;
+  border-radius: 10px;
+}
+
+#buttonEye:hover {
+  background-color: rgba(217, 213, 213, 0.841);
+  transition: 1s;
+}
+
+#edit {
+  border-radius: 10px;
+  border: #c8ac67 solid 2px;
+  width: 12rem;
+  height: 2rem;
+  padding-left: 5px;
+}

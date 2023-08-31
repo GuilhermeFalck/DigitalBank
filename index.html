@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falck`s Bank</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Tilt+Prism&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" id="logo" alt="" />
+      <h1 id="logoTitle" class="titles">Falck`s Bank</h1>
+    </header>
+    <aside>
+      <div>
+        <form action="http://localhost:3000/balance" method="post">
+          <h2 class="titles">Depositos</h2>
+          <br />
+          <label id="depositTitle" for="deposit">Valor:</label>
+          <br />
+          <input type="text" id="deposit" name="deposit" />
+          <br />
+          <br />
+          <div>
+            <button class="buttons" id="depositButton">Depositar</button>
+            <button class="buttons">Retirar</button>
+          </div>
+        </form>
+        <br />
+        <label for="edit" class="titles">Id de transação:</label>
+        <br />
+        <input type="text" name="edit" id="edit" />
+        <br /><br />
+        <button class="buttons">Editar</button>
+        <br /><br />
+        <div id="account">
+          <h2 class="titles">Saldo:</h2>
+          <section id="balance">
+            <p id="textBalance"></p>
+            <button id="buttonEye">
+              <img id="eye" src="./img/olho.png" alt="visualizar" />
+            </button>
+          </section>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div id="transiction">
+        <h2 class="titles">Transações</h2>
+        <section id="transactions"></section>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

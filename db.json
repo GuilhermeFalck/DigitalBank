@@ -1,0 +1,28 @@
+{
+  "balance": [
+    {
+      "deposit": 100,
+      "id": 1
+    },
+    {
+      "deposit": 23,
+      "id": 2
+    },
+    {
+      "deposit": 4,
+      "id": 3
+    },
+    {
+      "deposit": 0,
+      "id": 4
+    },
+    {
+      "deposit": 56,
+      "id": 5
+    },
+    {
+      "deposit": 45,
+      "id": 6
+    }
+  ]
+}
